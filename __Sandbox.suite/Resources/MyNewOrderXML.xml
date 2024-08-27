@@ -1,23 +1,23 @@
 <orders>
-<order id="001">
+  <order id="001">
     <customer name="Jane Green"></customer>
-    <product size="6" code="prod345">
-        <quantity>3</quantity>
-        <amount>23.45</amount>
+    <product code="prod345" size="6">
+      <quantity>3</quantity>
+      <amount>23.45</amount>
     </product>
-</order>
-<order id="002">
+  </order>
+  <order id="002">
     <customer name="James Brown"></customer>
-    <product size="6" code="prod345">
-        <quantity>1</quantity>
-        <amount>11.11</amount>
+    <product code="prod345" size="6">
+      <quantity>1</quantity>
+      <amount>11.11</amount>
     </product>
-</order>
-<order id="003">
+  </order>
+  <order id="003">
     <customer name="Barbara Bradley Haggerty"></customer>
-    <product size="1" code="prod123">
-        <quantity>1</quantity>
-        <amount>1</amount>
+    <product code="prod123" size="1">
+      <quantity>1</quantity>
+      <amount>1</amount>
     </product>
-</order>
+  </order>
 </orders>

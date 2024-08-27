@@ -42,7 +42,7 @@ put orders as object into ordersObj
 put the first item of ordersObj into orderObj
 put orderObj's customer.name
 
-put (the first item of (item 1 of ordersObj.orders).order) as reference into refOrdersObj
+put a reference to (the first item of (item 1 of ordersObj.orders).order) into refOrdersObj
 set refOrdersObj.name = "Jane Green"
 
 put (the first item of (item 1 of ordersObj.orders).order)
@@ -51,7 +51,6 @@ put JSONFormat(ordersObj) into file ResourcePath("MyNewOrderJson.json")
 put JSONValue(file ResourcePath("MyNewJson.json")) as tree
 put XMLSource as tree
 put the STTreeVersion
-Typetext controlKey
 
 put the suite
 
