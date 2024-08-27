@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="XmlExample_script" package="__Sandbox.suite" timestamp="2024-08-13 15:17:38.139 -0400"
+ tests="1"  failures="0" errors="0" time="0.108053">
+  <properties>
+   <property name="RunDate" value="2024-08-13 15:17:38.139 -0400"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="XmlExample.script" assertions="1" status="success"  time="0.102815">
+  </testcase>
+ </testsuite>
+</testsuites>

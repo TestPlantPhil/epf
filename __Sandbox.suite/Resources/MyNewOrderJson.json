@@ -1,0 +1,91 @@
+{
+  "orders": [
+    {
+      "_attributes": {
+        "id": "001"
+      },
+      "order": [
+        {
+          "_tag": "customer",
+          "name": "Jane Green"
+        },
+        {
+          "_attributes": {
+            "code": "prod345",
+            "size": "6"
+          },
+          "product": [
+            {
+              "quantity": [
+                "3"
+              ]
+            },
+            {
+              "amount": [
+                "23.45"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_attributes": {
+        "id": "002"
+      },
+      "order": [
+        {
+          "_tag": "customer",
+          "name": "James Brown"
+        },
+        {
+          "_attributes": {
+            "code": "prod345",
+            "size": "6"
+          },
+          "product": [
+            {
+              "quantity": [
+                "1"
+              ]
+            },
+            {
+              "amount": [
+                "11.11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_attributes": {
+        "id": "003"
+      },
+      "order": [
+        {
+          "_tag": "customer",
+          "name": "Barbara Bradley Haggerty"
+        },
+        {
+          "_attributes": {
+            "code": "prod123",
+            "size": "1"
+          },
+          "product": [
+            {
+              "quantity": [
+                "1"
+              ]
+            },
+            {
+              "amount": [
+                "1"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

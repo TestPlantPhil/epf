@@ -1,0 +1,4 @@
+﻿2024-08-15 13:11:54.116 -0400	START		Running Untitled.script
+2024-08-15 13:12:14.031 -0400	Log		myNewPath	17	on_untitled	Untitled.script
+2024-08-15 13:12:19.463 -0400	EndTestCase		(Duration:"25.345139", Errors:"0", Exceptions:"0", StartTime:"2024-08-15 13:11:54 -0400", Successes:"1", TestCase:"Untitled.script", Warnings:"0")
+2024-08-15 13:12:19.475 -0400	SUCCESS		Execution Time 0:00:25 Untitled.script

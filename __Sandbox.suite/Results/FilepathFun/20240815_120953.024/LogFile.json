@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Untitled.script",
+      "timestamp" : "2024-08-15 12:09:53.028 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.049192\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-15 12:09:53 -0400\", Successes:\"0\", TestCase:\"Untitled.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-15 12:09:53.080 -0400"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "Unknown Property or Function: Unable to access global property or function 'SUITE' -- Execution Time 0:00:00 Untitled.script",
+      "timestamp" : "2024-08-15 12:09:53.087 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-15 12:09:53.030 -0400"
+}

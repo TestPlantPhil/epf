@@ -1,0 +1,3 @@
+﻿2024-08-08 12:55:31.425 -0400	START		Running Sorting.script
+2024-08-08 12:55:31.472 -0400	EndTestCase		(Duration:"0.044651", Errors:"1", Exceptions:"0", StartTime:"2024-08-08 12:55:31 -0400", Successes:"0", TestCase:"Sorting.script", Warnings:"0")
+2024-08-08 12:55:31.477 -0400	FAILURE		STUnknownMessage: ERROR: No Such Function: 'sorted' -- Execution Time 0:00:00 Sorting.script

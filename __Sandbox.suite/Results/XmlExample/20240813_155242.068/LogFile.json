@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running XmlExample.script",
+      "timestamp" : "2024-08-13 15:52:42.070 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"3.400064\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-13 15:52:42 -0400\", Successes:\"1\", TestCase:\"XmlExample.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-13 15:52:45.471 -0400"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:03 XmlExample.script",
+      "timestamp" : "2024-08-13 15:52:45.489 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-13 15:52:42.071 -0400"
+}

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="Sorting">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>54</NumberOfRuns>
+  <NumberOfFails>11</NumberOfFails>
+  <FirstRun>2024-08-08 12:48:32 -0400</FirstRun>
+  <LastRun>2024-08-13 15:14:36 -0400</LastRun>
+  <TotalTimeOnSuccess>2.383075</TotalTimeOnSuccess>
+ </script>
+ <script name="MyBase64Test">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2024-08-19 17:32:58 -0400</FirstRun>
+  <LastRun>2024-08-19 17:49:26 -0400</LastRun>
+  <TotalTimeOnSuccess>83.809497</TotalTimeOnSuccess>
+ </script>
+ <script name="XmlExample">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>46</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2024-08-13 13:54:27 -0400</FirstRun>
+  <LastRun>2024-08-13 15:52:42 -0400</LastRun>
+  <TotalTimeOnSuccess>1862.678778</TotalTimeOnSuccess>
+ </script>
+ <script name="FilepathFun">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>31</NumberOfRuns>
+  <NumberOfFails>7</NumberOfFails>
+  <FirstRun>2024-08-15 12:06:58 -0400</FirstRun>
+  <LastRun>2024-08-15 13:11:54 -0400</LastRun>
+  <TotalTimeOnSuccess>29.130141</TotalTimeOnSuccess>
+ </script>
+</statistics>

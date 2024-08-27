@@ -1,0 +1,3 @@
+﻿2024-08-19 17:33:24.033 -0400	START		Running MyBase64Test.script
+2024-08-19 17:33:36.954 -0400	EndTestCase		(Duration:"12.919154", Errors:"1", Exceptions:"0", StartTime:"2024-08-19 17:33:24 -0400", Successes:"0", TestCase:"MyBase64Test.script", Warnings:"0")
+2024-08-19 17:33:36.956 -0400	ABORTED		Execution Time 0:00:12 MyBase64Test.script

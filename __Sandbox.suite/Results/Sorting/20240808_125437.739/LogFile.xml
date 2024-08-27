@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Sorting_script" package="__Sandbox.suite" timestamp="2024-08-08 12:54:37.739 -0400"
+ tests="1"  failures="1" errors="0" time="0.051467">
+  <properties>
+   <property name="RunDate" value="2024-08-08 12:54:37.739 -0400"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Sorting.script" assertions="1" status="failure"  time="0.044877">
+    <failure type="FAILURE" message="STUnknownMessage: ERROR: No Such Command: &apos;sorted&apos; -- Execution Time 0:00:00 Sorting.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

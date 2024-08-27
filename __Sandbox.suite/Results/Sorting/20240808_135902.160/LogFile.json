@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Sorting.script",
+      "timestamp" : "2024-08-08 13:59:02.164 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.043074\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-08 13:59:02 -0400\", Successes:\"0\", TestCase:\"Sorting.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-08 13:59:02.209 -0400"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "STInvalidNumber: Value is not a number: 'giraffe' -- Execution Time 0:00:00 Sorting.script",
+      "timestamp" : "2024-08-08 13:59:02.214 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-08 13:59:02.166 -0400"
+}

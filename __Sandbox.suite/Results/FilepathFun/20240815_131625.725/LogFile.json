@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running FilepathFun.script",
+      "timestamp" : "2024-08-15 13:16:25.729 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"26.207264\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-15 13:16:25 -0400\", Successes:\"0\", TestCase:\"FilepathFun.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-15 13:16:51.938 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:26 FilepathFun.script",
+      "timestamp" : "2024-08-15 13:16:51.941 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-15 13:16:25.731 -0400"
+}

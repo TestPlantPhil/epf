@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="MyXML_script" package="__Sandbox.suite" timestamp="2024-08-13 13:55:47.212 -0400"
+ tests="1"  failures="1" errors="0" time="0.054375">
+  <properties>
+   <property name="RunDate" value="2024-08-13 13:55:47.212 -0400"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="MyXML.script" assertions="1" status="failure"  time="0.049608">
+    <failure type="FAILURE" message="STSourceValueException: Invalid value (STSubListValue) -- Execution Time 0:00:00 MyXML.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+<order id="001">
+<customer name="Janet Brown"></customer>
+<product code="prod345" size="6">
+    <quantity>3</quantity>
+    <amount>23.45</amount>
+</product>
+</order>

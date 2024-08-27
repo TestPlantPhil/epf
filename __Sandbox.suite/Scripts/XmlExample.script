@@ -1,0 +1,57 @@
+﻿set XMLSource to {{
+<orders>
+  <order id="001">
+    <customer name="Janet Brown"/>
+    <product code="prod345" size="6">
+      <quantity>3</quantity>
+      <amount>23.45</amount>
+    </product>
+  </order>
+  <order id="002">
+    <customer name="James Brown"/>
+    <product code="prod345" size="6">
+      <quantity>1</quantity>
+      <amount>11.11</amount>
+    </product>
+  </order>
+  <order id="003">
+    <customer name="Barbara Bradley Haggerty"/>
+    <product code="prod123" size="1">
+      <quantity>1</quantity>
+      <amount>1</amount>
+    </product>
+  </order>
+</orders>
+}}
+// Store the XML information in XMLSource into variable order in tree format
+set orders to XMLSource as tree
+//put order into file ResourcePath("order.xml")
+
+put the first item of orders into order
+
+put the code of item 2 of order
+
+put (node "*/customer" of order)'s name
+
+put the text of node "*/*/product/amount" of orders
+
+put the sum of all nodes "*/*/product/amount" of orders
+put the average of all nodes "*/*/product/amount" of orders
+
+put orders as object into ordersObj
+put the first item of ordersObj into orderObj
+put orderObj's customer.name
+
+put (the first item of (item 1 of ordersObj.orders).order) as reference into refOrdersObj
+set refOrdersObj.name = "Jane Green"
+
+put (the first item of (item 1 of ordersObj.orders).order)
+put ordersObj as Tree into file ResourcePath("MyNewOrderXML.xml")
+put JSONFormat(ordersObj) into file ResourcePath("MyNewOrderJson.json")
+put JSONValue(file ResourcePath("MyNewJson.json")) as tree
+put XMLSource as tree
+put the STTreeVersion
+Typetext controlKey
+
+put the suite
+

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="MyXML_script" package="__Sandbox.suite" timestamp="2024-08-13 14:00:32.975 -0400"
+ tests="1"  failures="0" errors="0" time="24.210431">
+  <properties>
+   <property name="RunDate" value="2024-08-13 14:00:32.975 -0400"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="MyXML.script" assertions="1" status="success"  time="24.205239">
+  </testcase>
+ </testsuite>
+</testsuites>

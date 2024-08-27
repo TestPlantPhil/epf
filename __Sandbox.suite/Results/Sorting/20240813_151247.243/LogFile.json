@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Sorting.script",
+      "timestamp" : "2024-08-13 15:12:47.248 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.004215\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-13 15:12:47 -0400\", Successes:\"0\", TestCase:\"Sorting.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-13 15:12:47.255 -0400"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "SenseTalk Compiler Exception: in sorting:\\nSyntax Error at line 12: can't understand [end of line] at character 63 -- Execution Time 0:00:00 Sorting.script",
+      "timestamp" : "2024-08-13 15:12:47.276 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-13 15:12:47.250 -0400"
+}

@@ -1,0 +1,16 @@
+﻿(*
+https://docs.eggplantsoftware.com/studio/stk-url-transactions-formatting/#post-multipart
+*)
+
+try
+	set serverURL to "https://siteconfidence.atlassian.net/rest/api/2/issue/" &  the suiteVariables.issueIdOrKey & "/attachments"
+	post multipart {
+		TopHeader:{"X-Atlassian-Token" : "no-check", Authorization: "Basic "&base64Encode("shunji.yan@bcldb.com:[[tokenID]]")},
+		fieldname:"file",
+		filename: filename,
+		body:file filepath,
+	} to URL serverURL
+catch exception
+	log exception
+	logwarning "Unable to send file"
+end try

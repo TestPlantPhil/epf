@@ -1,0 +1,2 @@
+﻿put base64Encode of file <</Users/charturn/ConcurReceipts/TorontoRBC/DeltaTorontoReturnBrdPass.pdf>> into myEncodedPDF
+log myEncodedPDF

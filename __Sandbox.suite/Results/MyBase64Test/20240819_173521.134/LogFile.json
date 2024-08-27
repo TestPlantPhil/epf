@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running MyBase64Test.script",
+      "timestamp" : "2024-08-19 17:35:21.139 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"130.852381\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-19 17:35:21 -0400\", Successes:\"0\", TestCase:\"MyBase64Test.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-19 17:37:31.994 -0400"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:02:10 MyBase64Test.script",
+      "timestamp" : "2024-08-19 17:37:31.996 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-19 17:35:21.141 -0400"
+}

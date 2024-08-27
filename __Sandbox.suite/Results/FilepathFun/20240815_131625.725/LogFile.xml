@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="FilepathFun_script" package="__Sandbox.suite" timestamp="2024-08-15 13:16:25.725 -0400"
+ tests="1"  failures="0" errors="0" time="26.213106">
+  <properties>
+   <property name="RunDate" value="2024-08-15 13:16:25.725 -0400"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="FilepathFun.script" assertions="1" status="failure"  time="26.207264">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>

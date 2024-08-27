@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Sorting.script",
+      "timestamp" : "2024-08-08 13:57:10.160 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.049675\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-08 13:57:10 -0400\", Successes:\"0\", TestCase:\"Sorting.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-08 13:57:10.212 -0400"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "Unknown Property or Function: Unable to access global property or function 'NAME' -- Execution Time 0:00:00 Sorting.script",
+      "timestamp" : "2024-08-08 13:57:10.217 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-08 13:57:10.162 -0400"
+}

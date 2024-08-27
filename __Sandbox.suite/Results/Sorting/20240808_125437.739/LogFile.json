@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Sorting.script",
+      "timestamp" : "2024-08-08 12:54:37.743 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.044877\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-08 12:54:37 -0400\", Successes:\"0\", TestCase:\"Sorting.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-08 12:54:37.791 -0400"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "STUnknownMessage: ERROR: No Such Command: 'sorted' -- Execution Time 0:00:00 Sorting.script",
+      "timestamp" : "2024-08-08 12:54:37.796 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-08 12:54:37.745 -0400"
+}

@@ -1,0 +1,21 @@
+﻿set animals to "rabbit camel giraffe llama hyena goat"
+sort the words of animals
+put animals
+
+set animalObjs to [{name:rabbit,color:brown},{name:camel,height:12},{name:giraffe,height:12},{name:llama},{name:hyena,horns:no},{name:goat,horns:yes}]
+
+sort animalObjs by the name of each
+put animalObjs
+
+put (the name of each item in animalObjs) sorted alphabetically //reversed //sorted
+
+
+
+
+
+
+
+
+
+
+

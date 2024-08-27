@@ -1,0 +1,28 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Untitled.script",
+      "timestamp" : "2024-08-15 13:11:54.116 -0400"
+    },
+    {
+      "handlerName" : "on_untitled",
+      "message" : "myNewPath",
+      "timestamp" : "2024-08-15 13:12:14.031 -0400",
+      "identifier" : "Log",
+      "scriptName" : "Untitled.script",
+      "handlerLine" : 17
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"25.345139\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-15 13:11:54 -0400\", Successes:\"1\", TestCase:\"Untitled.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-15 13:12:19.463 -0400"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:25 Untitled.script",
+      "timestamp" : "2024-08-15 13:12:19.475 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-15 13:11:54.118 -0400"
+}

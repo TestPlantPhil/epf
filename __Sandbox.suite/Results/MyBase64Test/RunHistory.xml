@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="MyBase64Test">
+ <run>
+  <RunDate>2024-08-19 17:32:58.884 -0400</RunDate>
+  <Status>Success</Status>
+  <Duration>0.088567</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240819_173258.884/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-08-19 17:33:24.030 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>12.923157</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240819_173324.030/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-08-19 17:35:21.134 -0400</RunDate>
+  <Status>Aborted</Status>
+  <Duration>130.858782</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240819_173521.134/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-08-19 17:38:09.222 -0400</RunDate>
+  <Status>Success</Status>
+  <Duration>57.922494</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240819_173809.222/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-08-19 17:39:25.835 -0400</RunDate>
+  <Status>Success</Status>
+  <Duration>25.798436</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20240819_173925.835/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-08-19 17:49:26.236 -0400</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.081096</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20240819_174926.236/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STFileException -- Failed to read file /Users/charturn/Documents/Personal/JosiahBC.pdf</ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Sorting.script",
+      "timestamp" : "2024-08-08 12:54:46.559 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.040499\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-08 12:54:46 -0400\", Successes:\"0\", TestCase:\"Sorting.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-08 12:54:46.602 -0400"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "STUnknownMessage: ERROR: 'sort' was called as a Function, but is only available as a Command -- Execution Time 0:00:00 Sorting.script",
+      "timestamp" : "2024-08-08 12:54:46.607 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-08 12:54:46.561 -0400"
+}

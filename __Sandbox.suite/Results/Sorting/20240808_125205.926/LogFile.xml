@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Sorting_script" package="__Sandbox.suite" timestamp="2024-08-08 12:52:05.926 -0400"
+ tests="1"  failures="1" errors="0" time="0.045911">
+  <properties>
+   <property name="RunDate" value="2024-08-08 12:52:05.926 -0400"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Sorting.script" assertions="1" status="failure"  time="0.04114">
+    <failure type="FAILURE" message="STInvalidNumber: Value is not a number: &apos;[{name:&quot;rabbit&quot;},{name:&quot;cam...&apos; -- Execution Time 0:00:00 Sorting.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

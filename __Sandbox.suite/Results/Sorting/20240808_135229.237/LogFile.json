@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Sorting.script",
+      "timestamp" : "2024-08-08 13:52:29.242 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.050246\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-08 13:52:29 -0400\", Successes:\"0\", TestCase:\"Sorting.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-08 13:52:29.294 -0400"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "STInvalidBoolean: Value 'rabbit' is not TRUE, FALSE, YES, NO, ON, OFF or empty -- Execution Time 0:00:00 Sorting.script",
+      "timestamp" : "2024-08-08 13:52:29.300 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-08 13:52:29.244 -0400"
+}

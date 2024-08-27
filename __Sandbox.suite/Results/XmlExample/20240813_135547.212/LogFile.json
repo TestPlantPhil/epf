@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running MyXML.script",
+      "timestamp" : "2024-08-13 13:55:47.215 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.049608\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-13 13:55:47 -0400\", Successes:\"0\", TestCase:\"MyXML.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-13 13:55:47.267 -0400"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "STSourceValueException: Invalid value (STSubListValue) -- Execution Time 0:00:00 MyXML.script",
+      "timestamp" : "2024-08-13 13:55:47.273 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-13 13:55:47.217 -0400"
+}

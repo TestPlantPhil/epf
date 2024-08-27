@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running MyXML.script",
+      "timestamp" : "2024-08-13 14:12:40.567 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.05076\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-13 14:12:40 -0400\", Successes:\"1\", TestCase:\"MyXML.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-13 14:12:40.620 -0400"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:00 MyXML.script",
+      "timestamp" : "2024-08-13 14:12:40.632 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-13 14:12:40.568 -0400"
+}

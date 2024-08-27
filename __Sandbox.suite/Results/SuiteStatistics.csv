@@ -1,0 +1,5 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+Sorting,Success,54,11,2024-08-08 12:48:32 -0400,2024-08-13 15:14:36 -0400,0:00:00
+MyBase64Test,Failure,4,1,2024-08-19 17:32:58 -0400,2024-08-19 17:49:26 -0400,0:00:27
+XmlExample,Success,46,3,2024-08-13 13:54:27 -0400,2024-08-13 15:52:42 -0400,0:00:43
+FilepathFun,Success,31,7,2024-08-15 12:06:58 -0400,2024-08-15 13:11:54 -0400,0:00:01

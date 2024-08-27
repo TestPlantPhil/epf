@@ -1,0 +1,3 @@
+﻿2024-08-08 13:52:29.242 -0400	START		Running Sorting.script
+2024-08-08 13:52:29.294 -0400	EndTestCase		(Duration:"0.050246", Errors:"1", Exceptions:"0", StartTime:"2024-08-08 13:52:29 -0400", Successes:"0", TestCase:"Sorting.script", Warnings:"0")
+2024-08-08 13:52:29.300 -0400	FAILURE		STInvalidBoolean: Value 'rabbit' is not TRUE, FALSE, YES, NO, ON, OFF or empty -- Execution Time 0:00:00 Sorting.script

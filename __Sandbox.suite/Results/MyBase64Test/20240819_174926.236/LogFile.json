@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running MyBase64Test.script",
+      "timestamp" : "2024-08-19 17:49:26.241 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.074379\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-19 17:49:26 -0400\", Successes:\"0\", TestCase:\"MyBase64Test.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-19 17:49:26.318 -0400"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "STFileException: Failed to read file \/Users\/charturn\/Documents\/Personal\/JosiahBC.pdf -- Execution Time 0:00:00 MyBase64Test.script",
+      "timestamp" : "2024-08-19 17:49:26.327 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-19 17:49:26.243 -0400"
+}

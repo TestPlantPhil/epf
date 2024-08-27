@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="MyBase64Test_script" package="__Sandbox.suite" timestamp="2024-08-19 17:33:24.030 -0400"
+ tests="1"  failures="0" errors="0" time="12.923157">
+  <properties>
+   <property name="RunDate" value="2024-08-19 17:33:24.030 -0400"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="MyBase64Test.script" assertions="1" status="failure"  time="12.919154">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>

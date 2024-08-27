@@ -1,0 +1,3 @@
+﻿2024-08-15 12:09:53.028 -0400	START		Running Untitled.script
+2024-08-15 12:09:53.080 -0400	EndTestCase		(Duration:"0.049192", Errors:"1", Exceptions:"0", StartTime:"2024-08-15 12:09:53 -0400", Successes:"0", TestCase:"Untitled.script", Warnings:"0")
+2024-08-15 12:09:53.087 -0400	FAILURE		Unknown Property or Function: Unable to access global property or function 'SUITE' -- Execution Time 0:00:00 Untitled.script

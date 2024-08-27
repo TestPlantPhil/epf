@@ -1,0 +1,47 @@
+﻿(*
+put the folder
+set the folder to ".."
+put the folder
+*)
+
+** FOR MAC/UNIX/LINUX
+// if you start from the scriptresults
+put the last item of the scriptresults
+set myResultFolder to (folder of logfile of last item of scriptresults())
+put folder of logfile of last item of scriptresults() split by "/" into dirTree
+delete the last two items of dirTree
+put the filepath of dirTree into myNewFilepath
+log myNewFilepath
+
+// if you start from the script itself
+put my filepath 
+put my filepath split by "/" into myFilepath
+delete the last 2 items of myFilepath
+set myNewFilepath = the filepath of myFilepath & "/Results/"
+log myNewFilepath
+
+// create myNewFolder 
+set myNewFolder = myNewFilepath & "Testing123"
+create folder myNewFolder
+log myNewFolder
+
+-- ** FOR WINDOWS ** 
+// if you start from the scriptresults
+put the last item of the scriptresults
+set myResultFolder to (folder of logfile of last item of scriptresults())
+put folder of logfile of last item of scriptresults() split by "\" into dirTree
+delete the last two items of dirTree
+put the filepath of dirTree into myNewFilepath
+log myNewFilepath
+
+// if you start from the script itself
+put my filepath 
+put my filepath split by "\" into myFilepath
+delete the last 2 items of myFilepath
+set myNewFilepath = the filepath of myFilepath & "\Results\"
+log myNewFilepath
+
+// create myNewFolder 
+set myNewFolder = myNewFilepath & "Testing123"
+create folder myNewFolder
+log myNewFolder

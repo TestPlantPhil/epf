@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Untitled.script",
+      "timestamp" : "2024-08-15 12:58:24.116 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.081467\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-08-15 12:58:24 -0400\", Successes:\"1\", TestCase:\"Untitled.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-15 12:58:24.200 -0400"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:00 Untitled.script",
+      "timestamp" : "2024-08-15 12:58:24.208 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-15 12:58:24.118 -0400"
+}

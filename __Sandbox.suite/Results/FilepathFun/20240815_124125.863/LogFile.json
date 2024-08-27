@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Untitled.script",
+      "timestamp" : "2024-08-15 12:41:25.865 -0400"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.065971\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-08-15 12:41:25 -0400\", Successes:\"0\", TestCase:\"Untitled.script\", Warnings:\"0\")",
+      "timestamp" : "2024-08-15 12:41:25.933 -0400"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "STUnknownMessage: ERROR: No Such Function: 'index' -- Execution Time 0:00:00 Untitled.script",
+      "timestamp" : "2024-08-15 12:41:25.942 -0400"
+    }
+  ],
+  "createdTimestamp" : "2024-08-15 12:41:25.867 -0400"
+}

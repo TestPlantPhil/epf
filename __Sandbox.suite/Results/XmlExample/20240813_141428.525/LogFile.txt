@@ -1,0 +1,3 @@
+﻿2024-08-13 14:14:28.529 -0400	START		Running MyXML.script
+2024-08-13 14:14:28.591 -0400	EndTestCase		(Duration:"0.059282", Errors:"0", Exceptions:"0", StartTime:"2024-08-13 14:14:28 -0400", Successes:"1", TestCase:"MyXML.script", Warnings:"0")
+2024-08-13 14:14:28.602 -0400	SUCCESS		Execution Time 0:00:00 MyXML.script
