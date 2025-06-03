@@ -1,0 +1,21 @@
+{
+  "end_time": "2024-09-09T14:20:48.181316Z",
+  "execution_environment_id": 139,
+  "execution_environment_name": "isharp_Env",
+  "feature_file": null,
+  "id": 1735,
+  "is_rerun": false,
+  "model_id": "102efa9d-24df-4554-a9af-1e608438bbdf",
+  "model_name": "Hackathon_Philippa_Latest",
+  "run_type": "MODEL_TEST_CASE",
+  "start_time": "2024-09-09T14:20:17.857009Z",
+  "status": "FAILED",
+  "suite_id": null,
+  "suite_name": null,
+  "sut_id": null,
+  "sut_name": null,
+  "test_case_id": "b20f498f-848a-4035-bd73-3d91f02fa800",
+  "test_case_name": "TC1",
+  "test_config_result_id": null,
+  "test_config_step": null
+}

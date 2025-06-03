@@ -1,0 +1,13 @@
+﻿{
+    EPVersionNumber = 202504160645;
+    PreRunSelectionScript = "_Init.script";
+    Schedules =     (
+    );
+    ScriptMetaData =     {
+    };
+    SuiteEncodedTextKey = "=%$`O3>w[h#@T\\9@";
+    helpedSuitesInfo =     (
+    );
+    helperSuitesInfo =     (
+    );
+}

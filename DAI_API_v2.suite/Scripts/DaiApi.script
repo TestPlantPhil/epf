@@ -1,0 +1,118 @@
+﻿to GetAccessToken 
+
+	global access_token 
+	global DAIServer
+	global DAIClientID
+	global DAIClientSecret
+	
+	if access_token is empty
+		put DAIServer &"/api/v2/auth" into myURL // /auth/realms/eggplant/protocol/openid-connect/token" into myURL
+		
+		put "application/json" into RH."Content-Type"
+		(*put (grant_type:"client_credentials",client_id:DAIClientID,client_secret:DAIClientSecret) into RB
+*)
+		
+		set RB = <<{"client_id":"[[DAIClientID]]","client_secret":"[[DAIClientSecret]]"}>>
+		
+		put merge(RB) into RB
+		put Request(myURL,RH,"POST",RB) into myResponse
+		set access_token = "Bearer" && myResponse.access_token
+		
+		if api().statusCode = "200" then
+			Logsuccess "Able to Access DAI Server, and grab an access token"
+		else
+			logerror "Unable to Access DAI Server (Bad Username,Password, or DAI Server)"
+			logwarning myResponse
+			logwarning API()
+			exit all
+		end if
+	end if
+	
+	return access_token
+	
+end GetAccessToken
+
+to handle GetDAI
+	params endpt:"models",uuid:empty
+	global DAIServer
+	
+	//set URL for API Endpoint
+	put DAIServer & "/api/v2/" & endpt into URL
+	if uuid is not empty
+		put !"/[[uuid]]" after URL
+	end if
+	
+	//get oAuth2 Bearer Token
+	set RH.Authorization = GetAccessToken()
+	
+	set myResponse = Request(URL,RH,"GET")
+	log myResponse
+	if api().statusCode < 200 then
+		log api()
+	end if
+	return myResponse
+end GetDAI
+
+to handle GetTestResultLogs
+	params uuid:empty,csvFilePath:empty
+	
+	set endpt="test_results"
+	global DAIServer
+	
+	//set URL for API Endpoint
+	put DAIServer & "/api/v2/" & endpt into URL
+	if uuid is not empty
+		put !"/[[uuid]]/logs" after URL
+	end if
+	
+	//get oAuth2 Bearer Token
+	set RH.Authorization = GetAccessToken()
+	
+	set myResponse = Request(URL,RH,"GET")
+	log myResponse
+	if api().statusCode < 200 then
+		log api()
+	else if api().statusCode is 200 then
+		put myResponse into logs
+		if csvFilePath is not empty then
+			put CSVFormat(logs.items) into file csvFilePath
+		end if
+	end if
+	
+	return myResponse
+end GetTestResultLogs
+
+
+
+to Request myURL:empty,HEAD:empty,requestTYPE:"GET",RB:empty
+
+	if requestTYPE is empty or if myURL is empty or if HEAD is empty
+		return empty
+	end if
+	
+	//EMPTY_API_TEST shouldn't have any properties. We're setting them all with parameter overrides
+	if RB is empty
+		Untitled(httpMethod:requestTYPE,url:myURL,requestheaders:HEAD)
+	else
+		//EMPTY_API_TEST(httpMethod:requestTYPE,url:myURL,requestBody:RB,requestheaders:HEAD)
+		Untitled(httpMethod:requestTYPE,url:myURL,requestBody:RB,requestheaders:HEAD)
+	end if
+	
+	set log = !"statusCode:[[api().statusCode]] [[requestTYPE]] [[myURL]]"
+	put api().responseBody into myResponse
+	
+	if log starts with "statusCode:200"
+		LogSuccess log
+		try to put JSONValue(myResponse) into myResponse
+		if global RUN_MODE is "DEV"
+			log !"api().keys.archive: [[api().keys.archive]]"
+			log !"api().keys.oauthToken: [[api().keys.oauthToken]]"
+			//log !"api().responseBody: [[myResponse]]"
+		end if
+	else
+		LogWarning log && myResponse
+end if
+	
+	return myResponse
+end Request
+

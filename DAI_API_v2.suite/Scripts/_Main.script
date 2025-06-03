@@ -1,0 +1,40 @@
+﻿_Init
+start using DaiApi //loads DaiApi into the BackScripts
+
+set testResultId = "1735"
+set folderPath = ResourcePath() & "/" & testResultId
+create folder folderPath
+set filePath_csv = folderPath & "/logs.csv"
+put GetTestResultLogs (testResultId, filePath_csv) into Logs 
+log !"testResultId:[[testResultId]] total_count:[[Logs.total_count]] date_as_of:[[Logs.date_as_of]] csv:[[filePath_csv]]"
+
+set filePath_json = folderPath & "/test_results.json"
+put GetDAI ("test_results",testResultId) into resultList
+put JSONFormat(resultList) into file filePath_json
+
+Zip folder folderPath as file !"[[testResultId]].zip"
+
+(*
+repeat with each item in resultList 
+	log it
+end repeat
+*)
+
+(*
+repeat with each item in GetDAI ("errors")
+	log it
+end repeat
+*)
+
+(*
+repeat with each item in (items of GetDAI ("testconfigtasks"))
+	log it
+end repeat
+*)
+(*
+
+repeat with each testRun in DaiApi.GetDAI ("runs")
+	log testRun
+end repeat
+
+*)

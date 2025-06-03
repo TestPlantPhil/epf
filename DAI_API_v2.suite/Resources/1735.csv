@@ -1,0 +1,27 @@
+image_id,image_name,message,message_type,severity,stage,test_result_id,timestamp
+<missing value>,,"Setting up coverage in database ""ttdb""",,INFO,INITIALISING,1735,2024-09-09T14:20:17.892270
+<missing value>,,"Created test in database ""ttdb"" with test id 1735",,INFO,INITIALISING,1735,2024-09-09T14:20:17.924712
+<missing value>,,"For Parameter ""Hackathon_Philippa_Latest::products"", Selected value """"Apple iCam"""" from range [""Digital Storm VANQUISH 3 Custom Performance PC"", ""Lenovo IdeaCentre 600 All-in-One PC"", ""Apple MacBook Pro 13-inch"", ""Asus N551JK-XO076H Laptop"", ""Samsung Series 9 NP900X4C Premium Ultrabook"", ""HP Spectre XT Pro UltraBook"", ""HP Envy 6-1180ca 15.6-Inch Sleekbook"", ""Lenovo Thinkpad X1 Carbon Laptop"", ""Adobe Photoshop CS4"", ""Windows 8 Pro"", ""Sound Forge Pro 11 (recurring)"", ""Nikon D5500 DSLR"", ""Nikon D6500 DSLR - Black"", ""Nikon D6500 DSLR - Red"", ""Leica T Mirrorless Digital Camera"", ""Apple iCam"", ""HTC One M8 Android L 5.0 Lollipop"", ""HTC One Mini Blue"", ""Nokia Lumia 1020"", ""Beats Pill 2.0 Wireless Speaker"", ""Universal 7-8 Inch Tablet Cover"", ""Portable Sound Speakers"", ""Nike Floral Roshe Customized Running Shoes"", ""adidas Consortium Campus 80s Running Shoes"", @""Nike SB Zoom Stefan Janoski \""Medium Mint\"""", ""Nike Tailwind Loose Short-Sleeve Running Shirt"", ""Oversized Women T-Shirt"", ""Custom T-Shirt"", ""Levi's 511 Jeans"", ""Obey Propaganda Hat"", ""Reversible Horseferry Check Belt"", ""Ray Ban Aviator Sunglasses"", ""Night Visions"", ""If You Wait (donation)"", ""Science & Faith"", ""Fahrenheit 451 by Ray Bradbury"", ""First Prize Pies"", ""Pride and Prejudice"", ""Elegant Gemstone Necklace (rental)"", ""Flower Girl Bracelet"", ""Vintage Style Engagement Ring"", ""$25 Virtual Gift Card"", ""$50 Physical Gift Card"", ""$100 Physical Gift Card"", ""Fluevog - The Makena - Open Source Footwear"", ""Veno Scorp Budget Gaming PC"", ""Romeo and Juliet (Wordsworth Collector's Editions)"", ""Microsoft Windows 11 "", ""Iphone 15"", ""Eggy - Keysight""]:100",,INFO,INITIALISING,1735,2024-09-09T14:20:17.934854
+<missing value>,,"Executing directed testcase ""TC1""",,INFO,ENGINE,1735,2024-09-09T14:20:17.946133
+<missing value>,,"Starting in state ""Initial"" ",,INFO,ENGINE,1735,2024-09-09T14:20:17.949258
+<missing value>,,"Executing state ""Initial""'s action ""Launch Nopcommerce"" ",,INFO,ENGINE,1735,2024-09-09T14:20:17.979851
+<missing value>,,Executing Sensetalk snippet Common.script:launchNop,,INFO,ENGINE,1735,2024-09-09T14:20:18.002923
+<missing value>,,[windowsKey]r,typetext,INFO,SNIPPET,1735,2024-09-09T14:20:18.327209
+<missing value>,,[controlKey]a,typetext,INFO,SNIPPET,1735,2024-09-09T14:20:19.352778
+<missing value>,,chrome https://nopcommerce.eggplantlab.com/[return],typetext,INFO,SNIPPET,1735,2024-09-09T14:20:20.615905
+<missing value>,icons/EggplantLogo,"found at (499, 577)",waitfor,INFO,SNIPPET,1735,2024-09-09T14:20:47.413508
+<missing value>,,"TEXTSTYLE = {caseSensitive:""True""}",set,INFO,SNIPPET,1735,2024-09-09T14:20:47.477049
+<missing value>,,Executed Sensetalk snippet Common.script:launchNop,,INFO,ENGINE,1735,2024-09-09T14:20:47.538448
+<missing value>,,Executing Sensetalk snippet Setup.script:ConnectSUT,,INFO,ENGINE,1735,2024-09-09T14:20:47.541969
+072e6bbf-c93a-47e2-9ce8-bdb21a252527,Screen_Error,CapturedErrorScreenshot,Error Screen,INFO,SNIPPET,1735,2024-09-09T14:20:47.774894
+<missing value>,,Fatal SenseTalk exception at line 3 of connectsut: Connection Failed: Unable to connect to Server:AWS_Philippa on port:0,,INFO,SNIPPET,1735,2024-09-09T14:20:47.828413
+<missing value>,,"Invalid hostname or IP address: nodename nor servname provided, or not known",,INFO,SNIPPET,1735,2024-09-09T14:20:47.831261
+<missing value>,,,,INFO,SNIPPET,1735,2024-09-09T14:20:47.833475
+<missing value>,,Executed Sensetalk snippet Setup.script:ConnectSUT,,INFO,ENGINE,1735,2024-09-09T14:20:47.888565
+<missing value>,,Snippet Error: Setup.script failed,,ERROR,ENGINE,1735,2024-09-09T14:20:47.891577
+<missing value>,,"Execution time for action ""Launch Nopcommerce"" 29.911 seconds",,INFO,ENGINE,1735,2024-09-09T14:20:47.896136
+<missing value>,,"Transit to state ""Error"" ",,INFO,ENGINE,1735,2024-09-09T14:20:47.899492
+<missing value>,,"Transit to state ""Cleanup"" ",,INFO,ENGINE,1735,2024-09-09T14:20:47.929444
+<missing value>,,Bypassing snippet Common.script:close,,INFO,ENGINE,1735,2024-09-09T14:20:47.939388
+<missing value>,,"Writing to coverage database ""ttdb"" for model Hackathon_Philippa_Latest",,INFO,ENGINE,1735,2024-09-09T14:20:47.942410
+<missing value>,,"FAILED, 1 errors, 0 warnings, 3 state transitions, 1 actions executed",,INFO,ENGINE,1735,2024-09-09T14:20:48.189651
