@@ -1,27 +1,20 @@
 ﻿to GetAccessToken 
 
 	global access_token 
-	global DAIServer
-	global DAIClientID
-	global DAIClientSecret
 	
-	if access_token is empty
-		put DAIServer &"/api/v2/auth" into myURL // /auth/realms/eggplant/protocol/openid-connect/token" into myURL
+	if access_token is empty or if the time > global expiresAt
 		
-		put "application/json" into RH."Content-Type"
-		(*put (grant_type:"client_credentials",client_id:DAIClientID,client_secret:DAIClientSecret) into RB
-*)
-		
-		set RB = <<{"client_id":"[[DAIClientID]]","client_secret":"[[DAIClientSecret]]"}>>
-		
-		put merge(RB) into RB
-		put Request(myURL,RH,"POST",RB) into myResponse
+		set global expiresAt = the time 
+		put GetToken() into myResponse
+		put JSONValue(myResponse.responseBody) into myResponse
+		put myResponse's access_token into access_token
+		put myResponse.expires_in into expires_in
+		add expires_in seconds to global expiresAt
 		set access_token = "Bearer" && myResponse.access_token
-		
 		if api().statusCode = "200" then
-			Logsuccess "Able to Access DAI Server, and grab an access token"
+			Logsuccess "access_token secured"
 		else
-			logerror "Unable to Access DAI Server (Bad Username,Password, or DAI Server)"
+			logerror "access_token was not secured"
 			logwarning myResponse
 			logwarning API()
 			exit all
@@ -111,7 +104,7 @@ to Request myURL:empty,HEAD:empty,requestTYPE:"GET",RB:empty
 		end if
 	else
 		LogWarning log && myResponse
-end if
+	end if
 	
 	return myResponse
 end Request
